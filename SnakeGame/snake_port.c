@@ -16,7 +16,7 @@
 #define SNAKE_UDP_CLIENT_PORT	(uint16_t)(8001u)
 
 /* Platform dependent handles */
-ADC_HandleTypeDef hadc1;
+extern ADC_HandleTypeDef hadc1;
 
 /* Randomizer seed */
 static uint16_t gRandSeed;
